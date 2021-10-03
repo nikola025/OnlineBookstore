@@ -1,0 +1,249 @@
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.container img {
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+}
+
+body {
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.about a {
+    color: #111111;
+    text-decoration: none;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.about {
+    text-align: right;
+}
+
+.menu {
+    margin: -5px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu li a {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 5px 7px;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    color: #111111;
+    border-bottom: 3px solid #111111;
+    -webkit-transition: 0.7s ease-out;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(64, 155, 211);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    border-color: rgb(64, 155, 211);
+    width: 505px;
+    border-width: 2px;
+    outline: none;
+}
+
+#submit {
+    width: 200px;
+    color: white;
+    border: none;
+    background-color: rgb(122, 186, 223);
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: rgb(64, 155, 211);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    -webkit-transition: 0.2s ease-out;
+}
+
+.dknjige a {
+    color: royalblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dknjige a:hover {
+    color: black;
+    font-weight: bold; 
+    font-size: medium;
+}
+
+
+.content {
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.error {
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.content img {
+    height: 200px;
+    width: 130px;
+}
+
+.mimg img {
+    height: 200px;
+    width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.mimg {
+    background-color: rgb(236, 236, 236);
+    padding: 15px 15px 15px 15px;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.message {
+    background-color: rgb(236, 236, 236);
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 40px;
+}
+
+.user1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bookname {
+    transition: transform 0.5s;
+    padding: 20px 20px 0px 20px;
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 20px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.bookname:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.bookname a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    color: #111111;
+}
+
+.nameb {
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    color: #111111;
+}
+
+.price {
+    color: royalblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.author {
+    color: grey;
+}
+
+.delete {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.delete:hover {
+    color: rgb(128, 6, 6);
+}
+
+.remove {
+    color: red !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.remove:hover {
+    color: rgb(128, 6, 6);
+}
+
+.available {
+    color: green;
+}
+
+.taken {
+    color: red;
+}
+
+.tic {
+    color: green;
+}
+
+.cart{
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: 50px;
+}
+
+#ord{
+    color: royalblue;
+    text-decoration: none;
+}
+
+#rem{
+    color: crimson;
+}
+
+#icart:hover{
+    color: darkblue;
+}
+
+.check{
+    color: red;
+}
+
